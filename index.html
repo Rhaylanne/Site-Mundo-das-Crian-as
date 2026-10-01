@@ -1,0 +1,881 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mundo das Crianças</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <a href="#" class="logo">
+            🌱 Mundo das Crianças
+        </a>
+
+        <div class="nav-links">
+            <a href="#alimentacao">🍎 Alimentação</a>
+            <a href="#desenhos">📺 Desenhos</a>
+            <a href="#brincadeiras">🧩 Brincadeiras</a>
+            <a href="#contato">💌 Sugestões</a>
+        </div>
+
+        <button id="darkMode" aria-label="Ativar modo escuro">
+            🌙
+        </button>
+
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="tag">💜 Para mães e crianças</span>
+
+            <h1>
+                Aprender, brincar e
+                <span>crescer juntos!</span>
+            </h1>
+
+            <p>
+                Ideias criativas para alimentação infantil,
+                conteúdos educativos e brincadeiras para
+                aproveitar momentos longe das telas.
+            </p>
+
+            <a href="#conteudo" class="btn">
+                Explorar ideias ✨
+            </a>
+
+        </div>
+
+        <div class="hero-illustration">
+            👩‍👧‍👦
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORIAS -->
+
+    <section id="conteudo" class="section">
+
+        <div class="section-title">
+
+            <span>✨ Descubra</span>
+
+            <h2>
+                Um mundo de possibilidades
+            </h2>
+
+            <p>
+                Encontre atividades, receitas e conteúdos
+                para tornar a rotina mais divertida.
+            </p>
+
+        </div>
+
+
+        <div class="cards">
+
+            <article class="card">
+
+                <div class="icon">🍎</div>
+
+                <h3>
+                    Alimentação divertida
+                </h3>
+
+                <p>
+                    Ideias coloridas e criativas para
+                    transformar as refeições em momentos especiais.
+                </p>
+
+                <a href="#alimentacao">
+                    Ver receitas →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icon">📚</div>
+
+                <h3>
+                    Desenhos educativos
+                </h3>
+
+                <p>
+                    Conteúdos infantis selecionados para
+                    aprender enquanto se diverte.
+                </p>
+
+                <a href="#desenhos">
+                    Ver desenhos →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icon">🎨</div>
+
+                <h3>
+                    Brincadeiras
+                </h3>
+
+                <p>
+                    Atividades criativas para estimular
+                    imaginação, movimento e convivência.
+                </p>
+
+                <a href="#brincadeiras">
+                    Quero brincar →
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ALIMENTAÇÃO -->
+
+    <section id="alimentacao" class="section colored-section">
+
+        <div class="section-title">
+
+            <span>🍓 Pequenos chefs</span>
+
+            <h2>
+                Comida também pode ser diversão!
+            </h2>
+
+            <p>
+                Seis ideias criativas para deixar o prato
+                mais colorido e despertar a curiosidade.
+            </p>
+
+        </div>
+
+
+        <div class="filter-area">
+
+            <label for="filtroComida">
+                Filtrar:
+            </label>
+
+            <select id="filtroComida">
+
+                <option value="todos">
+                    Todas as ideias
+                </option>
+
+                <option value="cafe">
+                    Café da manhã
+                </option>
+
+                <option value="almoco">
+                    Almoço
+                </option>
+
+                <option value="lanche">
+                    Lanche
+                </option>
+
+                <option value="sobremesa">
+                    Sobremesa
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="food-grid">
+
+
+            <article class="food-card" data-category="cafe">
+
+                <div class="food-image">
+                    🥞
+                </div>
+
+                <span class="food-number">
+                    01
+                </span>
+
+                <h3>
+                    Panqueca Arco-Íris
+                </h3>
+
+                <p>
+                    Prepare pequenas panquecas e monte uma
+                    sequência colorida usando frutas variadas.
+                </p>
+
+                <div class="ingredients">
+                    🍓 Frutas + 🥞 Panqueca
+                </div>
+
+                <small>
+                    ☀️ Café da manhã
+                </small>
+
+            </article>
+
+
+            <article class="food-card" data-category="cafe">
+
+                <div class="food-image">
+                    🥪
+                </div>
+
+                <span class="food-number">
+                    02
+                </span>
+
+                <h3>
+                    Sanduíche Carinha
+                </h3>
+
+                <p>
+                    Transforme o sanduíche em um personagem
+                    usando pedaços de frutas e vegetais para criar
+                    olhos, boca e cabelo.
+                </p>
+
+                <div class="ingredients">
+                    🥪 Pão + 🥕 Vegetais
+                </div>
+
+                <small>
+                    ☀️ Café da manhã
+                </small>
+
+            </article>
+
+
+            <article class="food-card" data-category="almoco">
+
+                <div class="food-image">
+                    🦁
+                </div>
+
+                <span class="food-number">
+                    03
+                </span>
+
+                <h3>
+                    Prato Safari
+                </h3>
+
+                <p>
+                    Organize os alimentos no prato formando
+                    animais. Arroz pode virar o corpo e vegetais
+                    podem formar olhos, patas e detalhes.
+                </p>
+
+                <div class="ingredients">
+                    🥦 Legumes + 🍚 Arroz
+                </div>
+
+                <small>
+                    🍽️ Almoço
+                </small>
+
+            </article>
+
+
+            <article class="food-card" data-category="lanche">
+
+                <div class="food-image">
+                    🍓
+                </div>
+
+                <span class="food-number">
+                    04
+                </span>
+
+                <h3>
+                    Espetinho de Frutas
+                </h3>
+
+                <p>
+                    Monte sequências de frutas em diferentes
+                    formatos. A criança pode escolher a ordem
+                    e criar seu próprio "arco-íris".
+                </p>
+
+                <div class="ingredients">
+                    🍌 Banana + 🍓 Morango + 🍇 Uva
+                </div>
+
+                <small>
+                    🍎 Lanche
+                </small>
+
+            </article>
+
+
+            <article class="food-card" data-category="lanche">
+
+                <div class="food-image">
+                    🐛
+                </div>
+
+                <span class="food-number">
+                    05
+                </span>
+
+                <h3>
+                    Lagartinha de Frutas
+                </h3>
+
+                <p>
+                    Coloque pedaços de frutas em sequência
+                    para criar uma divertida lagartinha.
+                    Use uma fruta diferente para representar a cabeça.
+                </p>
+
+                <div class="ingredients">
+                    🍎 Frutas variadas
+                </div>
+
+                <small>
+                    🍎 Lanche
+                </small>
+
+            </article>
+
+
+            <article class="food-card" data-category="sobremesa">
+
+                <div class="food-image">
+                    🌈
+                </div>
+
+                <span class="food-number">
+                    06
+                </span>
+
+                <h3>
+                    Copinho Arco-Íris
+                </h3>
+
+                <p>
+                    Monte camadas coloridas com frutas picadas
+                    e outros ingredientes apropriados para a idade,
+                    criando um pequeno arco-íris no copo.
+                </p>
+
+                <div class="ingredients">
+                    🌈 Frutas + 🥣 Iogurte
+                </div>
+
+                <small>
+                    🍨 Sobremesa
+                </small>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- DESENHOS -->
+
+    <section id="desenhos" class="section">
+
+        <div class="section-title">
+
+            <span>📺 Aprender brincando</span>
+
+            <h2>
+                Desenhos educativos
+            </h2>
+
+            <p>
+                Uma seleção de conteúdos populares com
+                links clicáveis para o YouTube.
+            </p>
+
+        </div>
+
+
+        <div class="cartoon-grid">
+
+
+            <article class="cartoon-card">
+
+                <div class="cartoon-img">
+                    🔬
+                </div>
+
+                <h3>
+                    O Show da Luna!
+                </h3>
+
+                <p>
+                    Luna, Júpiter e Cláudio exploram perguntas
+                    e curiosidades sobre ciência e o mundo.
+                </p>
+
+                <span>
+                    🔬 Ciência
+                </span>
+
+                <a
+                    class="youtube-btn"
+                    href="https://www.youtube.com/watch?v=XOsY9Iw9jE0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ▶ Assistir no YouTube
+                </a>
+
+            </article>
+
+
+            <article class="cartoon-card">
+
+                <div class="cartoon-img">
+                    🐰
+                </div>
+
+                <h3>
+                    Turma da Mônica
+                </h3>
+
+                <p>
+                    Histórias e aventuras com Mônica, Cebolinha,
+                    Magali, Cascão e outros personagens.
+                </p>
+
+                <span>
+                    🤝 Amizade
+                </span>
+
+                <a
+                    class="youtube-btn"
+                    href="https://www.youtube.com/watch?v=IVN70CbyU4M"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ▶ Assistir no YouTube
+                </a>
+
+            </article>
+
+
+            <article class="cartoon-card">
+
+                <div class="cartoon-img">
+                    🐘
+                </div>
+
+                <h3>
+                    Pocoyo
+                </h3>
+
+                <p>
+                    Aventuras coloridas que estimulam curiosidade,
+                    descobertas e aprendizado.
+                </p>
+
+                <span>
+                    🌈 Descobertas
+                </span>
+
+                <a
+                    class="youtube-btn"
+                    href="https://www.youtube.com/watch?v=5fNN4uNtLp0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ▶ Assistir no YouTube
+                </a>
+
+            </article>
+
+
+            <article class="cartoon-card">
+
+                <div class="cartoon-img">
+                    🎩
+                </div>
+
+                <h3>
+                    Mundo Bita
+                </h3>
+
+                <p>
+                    Música, cores, movimento e temas do
+                    cotidiano apresentados de maneira lúdica.
+                </p>
+
+                <span>
+                    🎵 Música
+                </span>
+
+                <a
+                    class="youtube-btn"
+                    href="https://www.youtube.com/results?search_query=Mundo+Bita+canal+oficial"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ▶ Encontrar no YouTube
+                </a>
+
+            </article>
+
+
+            <article class="cartoon-card">
+
+                <div class="cartoon-img">
+                    🐔
+                </div>
+
+                <h3>
+                    Galinha Pintadinha
+                </h3>
+
+                <p>
+                    Músicas e animações infantis que trabalham
+                    ritmo, linguagem e participação.
+                </p>
+
+                <span>
+                    🎵 Música
+                </span>
+
+                <a
+                    class="youtube-btn"
+                    href="https://www.youtube.com/watch?v=JNA4-mjSf00"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ▶ Assistir no YouTube
+                </a>
+
+            </article>
+
+
+            <article class="cartoon-card">
+
+                <div class="cartoon-img">
+                    🐷
+                </div>
+
+                <h3>
+                    Peppa Pig
+                </h3>
+
+                <p>
+                    Histórias sobre situações do cotidiano,
+                    família, amizade e descobertas.
+                </p>
+
+                <span>
+                    👨‍👩‍👧 Família
+                </span>
+
+                <a
+                    class="youtube-btn"
+                    href="https://www.youtube.com/results?search_query=Peppa+Pig+Portugu%C3%AAs+Brasil+oficial"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ▶ Encontrar no YouTube
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- BRINCADEIRAS -->
+
+    <section id="brincadeiras" class="section colored-section">
+
+        <div class="section-title">
+
+            <span>🎲 Hora de brincar</span>
+
+            <h2>
+                Que tal guardar o celular?
+            </h2>
+
+            <p>
+                Escolha uma atividade e transforme alguns minutos
+                em uma aventura em família.
+            </p>
+
+        </div>
+
+
+        <div class="game-grid">
+
+
+            <article class="game-card">
+
+                <div>🕵️</div>
+
+                <h3>
+                    Caça ao tesouro
+                </h3>
+
+                <p>
+                    Esconda pistas pela casa e crie
+                    uma pequena aventura.
+                </p>
+
+                <button
+                    class="game-btn"
+                    data-game="Caça ao tesouro"
+                >
+                    Quero brincar!
+                </button>
+
+            </article>
+
+
+            <article class="game-card">
+
+                <div>🎨</div>
+
+                <h3>
+                    Desafio do desenho
+                </h3>
+
+                <p>
+                    Escolham um tema e desenhem juntos.
+                </p>
+
+                <button
+                    class="game-btn"
+                    data-game="Desafio do desenho"
+                >
+                    Quero brincar!
+                </button>
+
+            </article>
+
+
+            <article class="game-card">
+
+                <div>🧱</div>
+
+                <h3>
+                    Construção criativa
+                </h3>
+
+                <p>
+                    Criem uma cidade usando blocos,
+                    caixas ou materiais disponíveis.
+                </p>
+
+                <button
+                    class="game-btn"
+                    data-game="Construção criativa"
+                >
+                    Quero brincar!
+                </button>
+
+            </article>
+
+
+            <article class="game-card">
+
+                <div>🎭</div>
+
+                <h3>
+                    Teatro em família
+                </h3>
+
+                <p>
+                    Inventem personagens e apresentem
+                    uma pequena história.
+                </p>
+
+                <button
+                    class="game-btn"
+                    data-game="Teatro em família"
+                >
+                    Quero brincar!
+                </button>
+
+            </article>
+
+        </div>
+
+
+        <div id="gameMessage" class="game-message"></div>
+
+    </section>
+
+
+    <!-- FORMULÁRIO -->
+
+    <section id="contato" class="section">
+
+        <div class="section-title">
+
+            <span>💌 Participação</span>
+
+            <h2>
+                Compartilhe uma ideia
+            </h2>
+
+            <p>
+                Tem uma brincadeira ou receita que sua família adora?
+                Envie sua sugestão.
+            </p>
+
+        </div>
+
+
+        <form id="contactForm">
+
+            <div class="form-group">
+
+                <label for="nome">
+                    Nome
+                </label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite seu nome"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="email">
+                    E-mail
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Digite seu e-mail"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="categoria">
+                    Categoria
+                </label>
+
+                <select id="categoria" required>
+
+                    <option value="">
+                        Selecione
+                    </option>
+
+                    <option>
+                        Alimentação
+                    </option>
+
+                    <option>
+                        Desenhos
+                    </option>
+
+                    <option>
+                        Brincadeiras
+                    </option>
+
+                    <option>
+                        Outro
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="mensagem">
+                    Sugestão
+                </label>
+
+                <textarea
+                    id="mensagem"
+                    rows="5"
+                    placeholder="Conte sua ideia..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="btn"
+            >
+                Enviar sugestão 💚
+            </button>
+
+
+            <p id="formMessage"></p>
+
+        </form>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div>
+
+        <h3>
+            🌱 Mundo das Crianças
+        </h3>
+
+        <p>
+            Aprendizado, diversão e momentos em família.
+        </p>
+
+    </div>
+
+    <p>
+        © 2026 Mundo das Crianças
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
